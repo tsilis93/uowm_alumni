@@ -1,0 +1,444 @@
+.navbar {
+	background: #999999;
+    margin-bottom: 0;
+    border-radius: 0;  
+	border: 0;
+}
+
+.navbar li{
+	font-size: 15px;
+	padding-top: 0.5%;
+}
+
+	body {
+		background-color: #98b2e6;
+	}
+	
+	h2 {     
+		height: 100%;
+		color: #ffffff;
+		text-align: center;
+	}
+	
+
+	#editor img {
+		width: 400px;
+		height: auto;
+	}
+	
+	.characters {
+		color:black;
+		display: inline-block;
+		float: right;
+	}
+	
+	#charNum {
+		color:black;
+		display: inline-block;
+		float: center;
+	}
+	
+	input.myClass:disabled {
+		background-color: white;	
+	}
+	
+	.container {
+		width: 60%;
+		background: white;
+		box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.4);
+		border-radius: 15px;
+	}
+		
+	.construct {
+		width: 70%;
+		background: white;
+		box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.4);
+		border-radius: 15px;
+		margin:0 auto;
+	}
+	
+	.construct2 {
+		width: 90%;
+		background: white;
+		box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.4);
+		border-radius: 15px;
+		margin:0 auto;
+		overflow-x: auto;
+	}	
+	
+	.text-center {
+		text-align: center;  
+    }
+	
+	.form-group label:after {
+		color: #e32;
+		content: ' *';
+		display:inline;
+	}
+	
+    footer {
+      background-color: #f2f2f2;
+	  height: 40px;
+	  position: fixed;
+	  bottom: 0;
+	  width: 100%;
+    }
+	
+	#login2 {
+		text-align: center;
+		color: #000000;
+	}
+	
+	#bloc1
+	{
+		display: inline;
+		float: right;
+	}
+	
+	#bloc2
+	{
+		display: inline;
+		float: left;
+	}
+	
+	#bloc3 {
+		display:inline;
+	}
+	
+	#bloc4 {
+		display:inline;
+		float: right;
+	}
+	
+	#login {
+		color: #000000;
+	}
+	
+	#footer_text {
+		text-align: center;
+		font-size: 10px;
+		color: #000000;
+		padding-top: 0.5%;
+	} 
+	
+	#select_all {
+		zoom: 1.3;
+	}
+	
+	#bloc
+	{
+		float: right;
+	}
+	
+	
+	#cssTable td {
+		text-align: center;
+	}
+	
+	#myTable td{
+		padding: 15px;
+		border: 1px solid #dddddd;
+	}
+	
+	#myTable44 td, th{
+		padding: 15px;
+		border: 1px solid #dddddd;
+	}
+	
+	#myTable33 td, th{
+		padding: 10px;
+	}	
+	
+	
+	#myTable2 td {
+		padding: 10px;
+		border: 1px solid #000000;
+	}
+
+	#myTable2 tr:nth-child(even) {
+		background-color: #dddddd;	
+	}
+	
+
+	#arrow {
+		font-size: 270%;
+	}
+	
+	.statistics {
+		width: 50px;	
+		border-radius: 8px;
+		text-align:center;
+	}
+	
+	hr {               
+		background-color:#8080ff;
+		height: 1px;
+	}
+	
+	#all {
+		width: 90px;
+		border-radius: 8px;
+	}
+
+	#container2 {
+		width: auto;
+	}
+
+	#create_alumni_text {
+		font-size: 150%;
+	}
+	
+	
+	.creation {
+		border-collapse: collapse;
+		border-spacing: 10px;
+		width: 100%;	
+	}
+	
+	.betta {
+		margin: 0 auto;
+	}
+	
+	.betta td, 
+	.betta th {
+		padding: 5px;
+		border-collapse: collapse;
+		border: 1px solid black;
+	}
+	
+	#signformtable td{
+		padding: 10px;
+		text-align: center;
+	}
+
+
+	.modal {
+		padding-top: 100px; /* Location of the box */
+		left: 0;
+		top: 0;
+		width: 100%; /* Full width */
+		height: 100%; /* Full height */
+		overflow: auto; /* Enable scroll if needed */
+	}
+
+	.modal-content {
+		margin: auto;
+		display: block;
+		width: 60%;
+		max-width: 500px;
+	}
+	
+	  #header {
+		  display:inline-block;  
+	  }
+	  
+	  #info {
+		display: inline-block;
+		vertical-align: text-top;
+		margin-right:15px;	
+		width: 100px; 
+		background-color: #3399ff; 
+		position: absolute;
+		border-radius: 8px;
+		color: #ffffff;
+		text-align: center;
+	  }	
+	  
+	  #header2 {
+		  display:inline-block;  
+	  }
+	  
+	  #info2 {
+		display: inline-block;
+		vertical-align: text-top;
+		margin-right:15px;	
+		width: 100px; 
+		background-color: #3399ff; 
+		position: absolute;
+		border-radius: 8px;
+		color: #ffffff;
+		text-align: center;
+	  }
+
+		input[type="checkbox"]{
+		cursor: pointer;
+		border-radius: 1px;
+		box-sizing: border-box;
+		position: relative;
+		box-sizing: content-box ;
+		width: 20px;
+		height: 20px;
+		}	  
+
+/* edw kai katw einai gia ton html editor */
+a {
+  cursor: pointer;
+}
+
+#editor {
+  box-shadow: 0 0 2px #CCC;
+  min-height: 250px;
+  overflow: auto;
+  padding: 1em;
+  margin-top: 20px;
+  resize: vertical;
+  outline: none;
+}
+
+.content_html_editor {
+  box-shadow: 0 0 2px #CCC;
+  min-height: 250px;
+  overflow: auto;
+  padding: 1em;
+  margin-top: 20px;
+  resize: vertical;
+  outline: none;
+}
+
+.content_html_editor img {
+		width: 400px;
+		height: auto;
+	}
+
+.toolbar {
+  text-align: center;
+}
+
+.toolbar a,
+.fore-wrapper,
+.back-wrapper {
+  border: 1px solid #AAA;
+  background: #FFF;
+  font-family: 'Candal';
+  border-radius: 1px;
+  color: black;
+  padding: 5px;
+  width: 2.5em;
+  margin: -2px;
+  margin-top: 5px;
+  display: inline-block;
+  text-decoration: none;
+  box-shadow: 0px 1px 0px #CCC;
+}
+
+.toolbar a:hover,
+.fore-wrapper:hover,
+.back-wrapper:hover {
+  background: #f2f2f2;
+  border-color: #8c8c8c;
+}
+
+a[data-command="redo"],
+a[data-command="strikeThrough"],
+a[data-command="justifyFull"],
+a[data-command="insertOrderedList"],
+a[data-command="outdent"],
+a[data-command="p"],
+a[data-command="superscript"] {
+  margin-right: 8px;
+  border-radius: 0 3px 3px 0;
+}
+
+a[data-command='undo'],
+.fore-wrapper,
+a[data-command='justifyLeft'],
+a[data-command='insertUnorderedList'],
+a[data-command='indent'],
+a[data-command='h1'],
+a[data-command='subscript'] {
+  border-radius: 3px 0 0 3px;
+}
+
+a.palette-item {
+  height: 1em;
+  border-radius: 3px;
+  margin: 2px;
+  width: 1em;
+  border: 1px solid #CCC;
+}
+
+a.palette-item:hover {
+  border: 1px solid #CCC;
+  box-shadow: 0 0 3px #333;
+}
+
+.fore-palette,
+.back-palette {
+  display: none;
+}
+
+.fore-wrapper,
+.back-wrapper {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.fore-wrapper:hover .fore-palette,
+.back-wrapper:hover .back-palette {
+  display: block;
+  float: left;
+  position: absolute;
+  padding: 3px;
+  width: 160px;
+  background: #FFF;
+  border: 1px solid #DDD;
+  box-shadow: 0 0 5px #CCC;
+  height: 70px;
+}
+
+.fore-palette a,
+.back-palette a {
+  background: #FFF;
+  margin-bottom: 2px;
+}
+
+.html_editor {
+ margin: 0 auto;
+ padding: 5px;
+ background-color: white;
+}
+
+.editors {
+ margin: 0 auto;
+ padding: 5px;
+ background-color: white;
+}	
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+	
+		.modal-content {
+			width: 100%;
+		}
+	
+		.container {
+			width: 95%;
+			background: white;
+			box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.4);
+			border-radius: 15px;
+		}
+		
+		.construct {
+			width: 95%;
+			background: white;
+			box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.4);
+			border-radius: 15px;
+			margin:0 auto;
+		}
+				
+		#signformtable td {
+			display:block;
+			width:100%;
+			text-align: center;
+		}
+		
+		.statistics {
+			width: 50px;
+			border-radius: 8px;
+			text-align:center;
+		}
+						
+}
+	
+		
+	

@@ -1,0 +1,51 @@
+.navbar {
+	background: #999999;
+    margin-bottom: 0;
+    border-radius: 0;  
+	border: 0;
+}
+
+.navbar li{
+	font-size: 15px;
+	padding-top: 0.5%;
+}
+
+body {
+	background: url("../assets/search2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: auto;
+}
+	
+.container {
+	width: 65%;
+	background: white;
+	box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.4);
+	border-radius: 15px;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align:center;
+}
+td {
+    padding: 10px;
+}
+
+    footer {
+      background-color: #f2f2f2;
+	  height: 40px;
+	  position: fixed;
+	  bottom: 0;
+	  width: 100%;
+    }
+	
+	#footer_text {
+		text-align: center;
+		font-size: 10px;
+		color: #000000;
+		padding-top: 0.5%;
+	}

@@ -1,0 +1,77 @@
+
+  	body {
+		background: url("../assets/search2.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	
+	.container {
+		width: 60%;
+		background: white;
+		box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.4);
+		border-radius: 15px;
+	}
+	
+	.form-group label:after {
+		color: #e32;
+		content: ' *';
+		display:inline;
+	}
+	
+	#back_button {
+		background-color: Transparent;
+		background-repeat:no-repeat;
+		border: none;
+		cursor:pointer;
+		overflow: hidden;
+		outline:none;		
+	}
+		
+	#arrow {
+		font-size: 270%;
+	}
+	
+	#login {
+		text-align: center;
+	}
+	
+	#login2 {
+		text-align: center;
+		font-size:18px;
+	}
+	
+	footer {
+      background-color: #f2f2f2;
+	  height: 28px;
+	  position: fixed;
+	  bottom: 0;
+	  width: 100%;
+    }
+	
+	#signformtable td{
+		padding: 10px;
+		text-align: center;
+	}
+	
+	@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+	
+		body {
+			background: url("../assets/search2.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		.container {
+			width: 90%;
+			background: white;
+			box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.4);
+			border-radius: 15px;
+		}
+				
+		#signformtable td {
+			display:block;
+			width:100%;
+			text-align: center;
+		}
+				
+	}
